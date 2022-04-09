@@ -27,8 +27,9 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // we make a variable called name and set it equal to Dane as a name.
-// And set a condition that is if the name in the variable is Marry, the console.log 'Hi, Marry.
-// otherwise, the console.log 'How do you do?.
+// And set a condition that is if the name in the variable is Marry, the console.log 'Hi, Marry,
+//but the variable name is not equal to Marry than the console will log How do you do ? because 
+// the second condition was if is not equal log How do you do .
 //
 
 //CODE
@@ -47,9 +48,11 @@ if (name === 'Mary') {
 // 2. WRITE YOUR DESCRIPTION HERE
 // we create two variable (secret and code), we set the variable code to 123 which is number.
 // we set the condotions that is if the variable code is exatcly 123, the variable secret will 
-// have a string of 'super' and the variable code will multiply his number by 2.
+// have a string of 'super', and the code is equal to 123, so the var secret has the string of super and the variable code
+// will multiply his number by 2.
 //the second condition is if the number that we set for the variable code is superior to
-// 250, the variable secret will have a string 'duper' and the console.log secret.
+// 250,the variable secret will have a string 'duper' and the console.log secret. But
+// the code is not superior to 250, therefore, the condition will not be apply. 
 //CODE
 /*
 let secret;
@@ -76,7 +79,11 @@ console.log(secret)
 //second condition is if the variable isStudent is fasle or the age is inferior to 30
 // the console.log 'what are your hobbies?'.
 // the third one if the varaiable isStudent is true the console.log ' welcome to Prime'
-// otherwise console.log 'how about the weather?'.
+// otherwise console.log 'how about the weather?'. so, the first condition will not apply because
+// the zip string is less than 80000, and the second condition will not work to because 
+// the the value of isStudent is true and the age value is superior, and third condition will log welcome
+//to prime because the condition is true, the last on will log out how about the weather if any of those 
+// doesnt apply. 
 //CODE
 /*
 let isStudent = true;
@@ -133,7 +140,8 @@ if (number >= 2) {
 
 /*
 // the variable colorOne is red and colorTwo is blue, but the instruction say colorOne is blue and
-// colorTwo need to be equal to red.
+// colorTwo need to be equal to red. The condititon is if the mix is true then colorOne will have the 
+// string purple , since the mix is true, therefore the colorOne will become purple.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -173,5 +181,5 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
-
+//
 
